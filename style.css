@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: 'Mutka';
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000;
+    background-color: #FFF8D6;
+}
+
+h2, h3 {
+    font-family: 'Mutka', sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #528265;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+nav h1 {
+    font-size: 2rem;
+}
+
+nav h1 img {
+    width: 105%;
+    height: 100px;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+    color: #D8E9A8;
+}
+
+nav li {
+    margin-left: 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav a:hover {
+    color: #D8E9A8;
+}
+
+/* Hero section styles */
+.hero {
+    background-image: url('https://static.wixstatic.com/media/11add2_23440e3bd530489e9cd22f3076f0d4a7~mv2.jpg/v1/fill/w_1056,h_510,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/11add2_23440e3bd530489e9cd22f3076f0d4a7~mv2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: calc(100vh - 80px);
+    display: flex;
+    align-items: center;
+}
+
+.hero-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
+
+.hero h2 {
+    font-size: 4rem;
+    margin-bottom: 1px;
+    font-family: 'Mutka';
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+
+/* About section styles */
+.about {
+    padding: 4rem;
+    max-width: 1300px;
+    margin: 0 auto;
+    background-color: #528265;
+    color: #fff;
+}
+
+.about h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-family: 'Dancing Script', sans-serif ;
+}
+
+.about p {
+    margin-bottom: 1rem;
+}
+
+/* Menu section styles */
+.menu, .sobremesas{
+    padding: 4rem;
+    max-width: 700px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+}
+
+.menu h1, .sobremesas h2  {
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.menu-item {
+    background-color: #FFF3E2;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: 300ms linear;
+}
+
+.menu-item img {
+    width: 70%;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+}
+
+.menu-item:hover {
+    background-color: #528265;
+    color: #fff;
+}
+
+.menu-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    
+}
+
+.menu-item p {
+    margin-bottom: 1rem;
+}
+
+
+
+.consulta {
+    font-size: 11px;
+}
+
+.sobremesas {
+    text-align: center;
+}
+
+.Bebidas {
+    text-align: center;
+}
+.Bebidas h2 {
+    padding: 20px;
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 3rem;
+}
+
+.drinks {
+    
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+}
+
+.drinks h3 {
+    padding: 20px;
+    font-family: 'Dancing Script', sans-serif;
+}
+.drinks a {
+    font-size: 12px;
+    font-family: 'Mutka';
+}
+
+footer {
+    background-color: #528265;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    text-align: center;
+    padding: 15px;    
+}
+
+
+footer h2 {
+    padding: 10px;
+}
+
+  html {
+    scroll-behavior: smooth;
+}
